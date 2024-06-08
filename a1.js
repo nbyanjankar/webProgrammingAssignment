@@ -49,7 +49,7 @@ function getRandomInt(max) {
 }
 
 
-
+// automateTests function to send random request at regular intervals
 function automateTests() {
     const testVerbs = ["GET", "POST"];
     const testPaths = ["/", "/about", "/contact", "/login", "/panel", "/logout", "/randomPath1", "/randomPath2"];
